@@ -1,0 +1,3 @@
+#!/bin/bash
+
+kubectl --namespace ingress-nginx get services -o wide -w ingress-nginx-controller
